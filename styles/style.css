@@ -3,7 +3,8 @@
     list-style: none;
     justify-content: space-between;
     max-width: 1200px;
-    margin: auto;
+    margin-bottom: 17px;
+    /* padding: 5px 0px; */
 }
 ul li a{
     text-decoration: none;
@@ -14,14 +15,99 @@ ul li a{
     align-items: center;
 }
 .community{
-    background-color: blue;
-    font-size: 2px 20px;
-    border-radius: 12px;
     font-weight: bold;
     font-size: 22px;
     color: white;
+    background-color: blue;
+    border-radius: 12px;
     border: none;
     cursor: pointer;
     width: 192px;
-    height: 56px;
+    height: 54px;
+}
+
+#blog{
+    background-image: url('./banner.jpg');
+    /* background: -moz-linear-gradient(); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1340px;
+    height: 786px;
+}
+#blog h1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+}
+#blog h4{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    width: 829px;
+    height: 108px;
+}
+.mirror{
+    font-weight: 700;
+    font-size:24px ;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 282px;
+    height: 74px;
+    margin-top: 300px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.continent{
+    display: flex;
+    gap: 59px;
+}
+.electron{
+    display: flex;
+    gap: 59px;
+}
+.Artocarpus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 46px;
+    margin-bottom: 36px;
+}
+.heterophyllus{
+    border: solid rgb(228, 214, 214);
+    border-radius: 8px;
+}
+.heterophyllus span{
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563EB;
+    margin-left: 20px;
+}
+.heterophyllus p{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-left: 20px;
+}
+.heterophyllus h5{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    margin-left: 20px;
 }
