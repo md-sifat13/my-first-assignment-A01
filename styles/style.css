@@ -27,8 +27,15 @@ ul li a{
 }
 
 #blog{
-    background-image: url('./banner.jpg');
-    /* background: -moz-linear-gradient(); */
+    background-image: linear-gradient(
+        to right,    
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.6) 35%,
+    rgba(0, 0, 0, 0.2) 60%,
+    rgba(0, 0, 0, 0) 100%
+    ),
+    url('./banner.jpg');
+    /* background-image: url('./banner.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 1340px;
