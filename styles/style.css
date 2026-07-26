@@ -200,7 +200,7 @@ ul li a{
     font-weight: 600;
     font-size:14px ;
     color: #2563EB;
-    margin-left: 33px;
+    margin-left: 30px;
     margin-top: 80px;
     background-color: white;
     border-color: #2563EB;
@@ -215,7 +215,7 @@ ul li a{
     font-weight: 600;
     font-size:14px ;
     color: #ffffff;
-    margin-left: 33px;
+    margin-left: 30px;
     margin-top: 80px;
     background-color: #2563EB;
     border-color: #2563EB;
@@ -230,7 +230,7 @@ ul li a{
     font-weight: 600;
     font-size:14px ;
     color: #0D1B2A;
-    margin-left: 33px;
+    margin-left: 30px;
     margin-top: 80px;
     background-color: #ffffff;
     border-color: #0D1B2A;
@@ -259,4 +259,41 @@ ul li a{
     font-size: 22px;
     color: #575757;
     margin-bottom: 30px;
+}
+
+
+.rope{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1338px;
+    height: 145px;
+    background-color: #0D1B2A;
+    margin-top: 600px;
+    border: #0D1B2A;
+    border-radius: 6px;
+}
+.rope span{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d4cbcb;
+    margin-left: 115.5px;
+    margin-top: 36px;
+}
+.rope h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d4cbcb;
+    margin-right: 115.5px;
+    margin-top: 60px;
+}
+.rope p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d4cbcb;
+    margin-left: 620px;
+    margin-top: 56px;
 }
