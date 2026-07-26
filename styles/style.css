@@ -111,3 +111,152 @@ ul li a{
     color: #575757;
     margin-left: 20px;
 }
+
+.window{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottle p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #888888;
+    letter-spacing: 0.32px;
+    margin-left: 25px;
+    /* margin-bottom: -1px; */
+}
+.bottle span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #0D1B2A;
+    letter-spacing: 0px;
+    margin-left: 25px;
+}
+.bottle h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #888888;
+    letter-spacing: 0px;
+    margin-left: 25px;
+}
+.bottle ul{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0px;
+}
+ .bottle{
+    width: 370.66px;
+    height: 442px;
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px 12px 12px 12px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.door{
+    width: 370.66px;
+    height: 442px;
+    background-color: #0D1B2A;
+    border: 1px  #0D1B2A;
+    border-radius: 12px 12px 12px 12px;
+}
+.door p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #93C5FD;
+    letter-spacing: 0.32px;
+    margin-left: 25px;
+}
+.door span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    margin-left: 25px;  
+}
+.door h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #b3aaaa ;
+    letter-spacing: 0px;
+    margin-left: 25px;
+}
+.door ul{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF ;
+    letter-spacing: 0px;
+}
+.lightning{
+    font-weight: 600;
+    font-size:14px ;
+    color: #2563EB;
+    margin-left: 33px;
+    margin-top: 80px;
+    background-color: white;
+    border-color: #2563EB;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: 304.66px;
+    height: 45px;
+}
+.cyclone{
+    font-weight: 600;
+    font-size:14px ;
+    color: #ffffff;
+    margin-left: 33px;
+    margin-top: 80px;
+    background-color: #2563EB;
+    border-color: #2563EB;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: 304.66px;
+    height: 45px;
+}
+.tornado{
+    font-weight: 600;
+    font-size:14px ;
+    color: #0D1B2A;
+    margin-left: 33px;
+    margin-top: 80px;
+    background-color: #ffffff;
+    border-color: #0D1B2A;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: 304.66px;
+    height: 45px;
+}
+.electroscope{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #0D1B2A;
+    margin-bottom: -50px;
+    margin-top: 60px;
+}
+.led{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #575757;
+    margin-bottom: 30px;
+}
